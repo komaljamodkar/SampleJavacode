@@ -1,6 +1,6 @@
 package Arrayexampples;
 //find left diagonal and sum
-public class LeftDiagonalsum {
+public class LeftRightDiagonalsum {
     public static void main(String[] args) {
         int sum=0;
         int [][]arr= {{1,2,3},{4,5,6},{7,8,9}};
@@ -9,10 +9,10 @@ public class LeftDiagonalsum {
 
         System.out.println("print 2d array");
         printarray(arr);
-        /*printleftdiagonal(arr);
+        printleftdiagonal(arr);
         printrighttdiagonal(arr);
         printleftdiagonalsum(arr,0);
-        printrighttdiagonalsum(arr,0);*/
+        printrighttdiagonalsum(arr,0);
         printmaxmin(arr);
     }
     public static void printarray(int arr[][]){
