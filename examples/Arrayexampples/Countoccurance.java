@@ -21,6 +21,6 @@ public class Countoccurance {
             for(Map.Entry entry:chcount.entrySet()){
                 System.out.println(entry.getKey()+" "+entry.getValue());
             }
-
+//op: e 1 h 1 l 2 0 1
     }
 }
